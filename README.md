@@ -12,7 +12,7 @@ And either run:
 bash stow_all.sh
 ```
 
-Or individuall stow each folder with
+Or individually stow each folder with
 ```bash
 stow FOLDER_NAME
 ```
