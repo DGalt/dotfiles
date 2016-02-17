@@ -1,0 +1,45 @@
+!cursor theme
+Xcursor.theme: win8
+
+!urxvt ----------------------------
+URxvt.scrollBar: false
+
+!!font config
+URxvt.font: xft:DejavuSansMono:size=11:antialias=true
+URxvt.letterSpace: -2
+
+!!colors
+*foreground:		#A3A3A3
+*background: 		#1D1F21
+
+!! black dark/light
+*color0:                #343E42
+*color8:		#242B2E           
+ 
+!! red dark/light
+*color1:		#AB5555
+*color9:		#B26E2D           
+ 
+!! green dark/light
+*color2:		#64C79E              
+*color10:		#93C763          
+ 
+!! yellow dark/light
+*color3:		#E5B81E                
+*color11:               #FFED4B
+ 
+!! blue dark/light
+*color4:		#3D5470
+*color12:		#81A2BE    
+ 
+!! magenta dark/light
+*color5:		#A082BD             
+*color13:               #9F7097
+ 
+!! cyan dark/light
+*color6:		#3CB371
+*color14:               #6BBEE8
+ 
+!! white dark/light
+*color7:		#ACAEB0            
+*color15:               #E0E2E4

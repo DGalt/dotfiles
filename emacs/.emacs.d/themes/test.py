@@ -1,0 +1,6 @@
+import pandas as pd
+import numpy as np
+y = pd.DataFrame(np.random.random((10,10))
+c = pd.DataFrame(np.random.random((10,10)))
+
+c*y 

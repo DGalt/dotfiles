@@ -1,0 +1,4 @@
+date -u +%V$(uname)|sha256sum|sed 's/\W//g'
+date -u +%V$(uname)|sha256sum|sed 's/\W//g'
+date -u +%V$(uname)|sha256sum|sed 's/\W//g'
+echo 52Linux|sha256sum|sed 's/\W//g'

@@ -1,0 +1,24 @@
+out_to_x no
+out_to_console yes
+short_units yes
+update_interval 1
+
+TEXT
+
+[\
+# Kernel:
+{"full_text":"KERNEL","color":"\#888888","separator":false,"separator_block_width":6},\
+{"full_text":"${kernel}","color":"\#EEEEEE","separator":false,"separator_block_width":6},\
+# CPU temperature:
+{"full_text":"CPU TEMP","color":"\#888888","separator":false,"separator_block_width":6},\
+{"full_text":"${if_match ${hwmon 2 temp 2}<45}${hwmon 2 temp 2}","color":"\#AAF096","separator":false,"separator_block_width":0},\
+{"full_text":"${else}"},\
+{"full_text":"${if_match ${hwmon 2 temp 2}<50}${hwmon 2 temp 2}","color":"\#F0DC64","separator":false,"separator_block_width":0},\
+{"full_text":"${else}"},\
+{"full_text":"${if_match ${hwmon 2 temp 2}<55}${hwmon 2 temp 2}","color":"\#FF9933","separator":false,"separator_block_width":0},\
+{"full_text":"${else}"},\
+{"full_text":"${if_match ${hwmon 2 temp 2}>=55}${hwmon 2 temp 2}","color":"\#FF3333","separator":false,"separator_block_width":0},\
+{"full_text":"${else}"},\
+{"full_text":"${endif}${endif}${endif}${endif}"},\
+{"full_text":"C°","color":"\#EEEEEE","separator":false,"separator_block_width":6},\
+]
