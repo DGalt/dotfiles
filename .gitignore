@@ -1,0 +1,3 @@
+# ignore person emacs files
+emacs/.emacs.d/savehist
+emcas/.emacs.d/projectile-bookmarks.eld
