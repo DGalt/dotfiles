@@ -4,6 +4,6 @@
 (setq savehist-minibuffer-history-variables '(magit-read-file-hist magit-revision-history buffer-name-history helm-M-x-input-history minibuffer-history))
 (setq buffer-name-history '("*magit: dotfiles"))
 (setq helm-M-x-input-history '("magit stag" "magit stage" "magitst" "magit" "magit ini"))
-(setq minibuffer-history '("/home/dan/dotfiles/" "/home/dan/dotfiles/stow_all.sh" "/home/dan/Desktop/hello.sh"))
+(setq minibuffer-history '("/home/dan/dotfiles/emacs/.emacs.d/" "/home/dan/Documents/Northwestern/Surmeier Lab/Python/neurphys/R" "/home/dan/dotfiles/README.md" "/home/dan/dotfiles/" "/home/dan/dotfiles/stow_all.sh" "/home/dan/Desktop/hello.sh"))
 (setq search-ring 'nil)
 (setq regexp-search-ring 'nil)
