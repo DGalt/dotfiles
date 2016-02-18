@@ -1,3 +1,7 @@
-# ignore person emacs files
+# ignore personal emacs files
 emacs/.emacs.d/savehist
-emcas/.emacs.d/projectile-bookmarks.eld
+emacs/.emacs.d/projectile-bookmarks.eld
+emacs/.emacs.d/auto-save-list/*
+
+# ignore zsh cache
+zsh/.zsh/cache
