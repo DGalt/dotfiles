@@ -2,6 +2,7 @@
 emacs/.emacs.d/savehist
 emacs/.emacs.d/projectile-bookmarks.eld
 emacs/.emacs.d/auto-save-list/*
+emacs/.emacs.d/recentf
 
 # ignore zsh cache
 zsh/.zsh/cache
