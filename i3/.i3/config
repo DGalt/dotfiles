@@ -141,6 +141,7 @@ bindsym $mod+Shift+9 move container to $wsp9
 bindsym $mod+Shift+0 move container to $wsp0
 
 # assign certain progs to certain workspaces
+assign [class="google-chrome"] $wsp1
 assign [class="Emacs"] $wsp2
 
 # reload the configuration file
