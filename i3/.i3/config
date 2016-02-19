@@ -129,16 +129,16 @@ bindsym $mod+9 workspace $wsp9
 bindsym $mod+0 workspace $wsp0
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to $wsp1
-bindsym $mod+Shift+2 move container to $wsp2
-bindsym $mod+Shift+3 move container to $wsp3
-bindsym $mod+Shift+4 move container to $wsp4
-bindsym $mod+Shift+5 move container to $wsp5
-bindsym $mod+Shift+6 move container to $wsp6
-bindsym $mod+Shift+7 move container to $wsp7
-bindsym $mod+Shift+8 move container to $wsp8
-bindsym $mod+Shift+9 move container to $wsp9
-bindsym $mod+Shift+0 move container to $wsp0
+bindsym $mod+Shift+1 move container to workspace $wsp1
+bindsym $mod+Shift+2 move container to workspace $wsp2
+bindsym $mod+Shift+3 move container to workspace $wsp3
+bindsym $mod+Shift+4 move container to workspace $wsp4
+bindsym $mod+Shift+5 move container to workspace $wsp5
+bindsym $mod+Shift+6 move container to workspace $wsp6
+bindsym $mod+Shift+7 move container to workspace $wsp7
+bindsym $mod+Shift+8 move container to workspace $wsp8
+bindsym $mod+Shift+9 move container to workspace $wsp9
+bindsym $mod+Shift+0 move container to workspace $wsp0
 
 # assign certain progs to certain workspaces
 assign [class="google-chrome"] $wsp1
@@ -218,5 +218,5 @@ new_float pixel 2
 
 
 #keybind screen lock
-bindsym $mod+shift+x exec i3lock
+bindsym $mod+shift+x exec i3lock -i ~/Documents/Pictures/sys_imgs/arch-lock.png
 
