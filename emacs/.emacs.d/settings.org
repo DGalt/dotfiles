@@ -125,6 +125,8 @@ http://blog.binchen.org/posts/effective-spell-check-in-emacs.html
 
   ;; delete old backups silently
   (setq delete-old-versions t)
+  (setq auto-save-file-name-transforms
+        '(("." . "~/.emacs_autosaves")))
 #+END_SRC
 ** Dired
 ** Pair (braces, etc.) Settings
