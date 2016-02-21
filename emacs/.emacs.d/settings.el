@@ -80,6 +80,8 @@
 
 ;; delete old backups silently
 (setq delete-old-versions t)
+(setq auto-save-file-name-transforms
+      '(("." . "~/.emacs_autosaves")))
 
 ;; Enable electric-pair mode (inserts matching delimiters)
 (electric-pair-mode 1)
