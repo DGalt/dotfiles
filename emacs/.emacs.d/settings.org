@@ -121,12 +121,12 @@ http://blog.binchen.org/posts/effective-spell-check-in-emacs.html
   ;; delete-auto-save-files
   (setq delete-auto-save-files t)
   (setq backup-directory-alist
-        '(("." . "~/.emacs_backups")))
+        `(("." . "~/.emacs_backups")))
 
   ;; delete old backups silently
   (setq delete-old-versions t)
   (setq auto-save-file-name-transforms
-        '(("." . "~/.emacs_autosaves")))
+        `((".*" ,"~/.emacs_backups" t)))
 #+END_SRC
 ** Dired
 ** Pair (braces, etc.) Settings
