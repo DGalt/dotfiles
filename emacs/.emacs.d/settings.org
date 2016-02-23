@@ -224,6 +224,8 @@ http://blog.binchen.org/posts/effective-spell-check-in-emacs.html
 #+END_SRC
 ** Python
 #+BEGIN_SRC emacs-lisp
+  (setq python-shell-interpreter "python")
+  (setq python-shell-interpreter-args "-m IPython")
   (use-package pyenv
     :config
     (pyenv-mode))
@@ -231,9 +233,7 @@ http://blog.binchen.org/posts/effective-spell-check-in-emacs.html
     :defer t
     :config
     ;;enable ycmd in ein, not recognized as supported mode by default
-    (add-hook 'ein:notebook-multilang-mode-hook 'ycmd-mode)
-  (setq python-shell-interpreter "python")
-  (setq python-shell-interpreter-args "-m IPython"))
+    (add-hook 'ein:notebook-multilang-mode-hook 'ycmd-mode))
 #+END_SRC
 * Magit
 #+BEGIN_SRC emacs-lisp
